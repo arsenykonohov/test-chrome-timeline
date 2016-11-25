@@ -8,14 +8,14 @@
 + ready for checking
 
 
-** use some server to run these examples: **
+**use some server to run these examples:**
 ```
 $ python -m http.server 8000   # sometimes it is easier way to run something :)
 
-$ npm install -g http-server   # install via npm package dependency
+$ npm install -g http-server   # install dependency via npm package 
 $ http-server -p 8000
 
-$ npm install -g node-static   # install via npm package dependency
+$ npm install -g node-static   # install dependency via npm package 
 $ static -p 8000
 ```
 
