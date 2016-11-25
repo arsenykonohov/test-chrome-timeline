@@ -1,2 +1,3 @@
-# test-timeline-chrome-array-or-string
+# chrome-timeline-cases
+
 Make benchmark for real case

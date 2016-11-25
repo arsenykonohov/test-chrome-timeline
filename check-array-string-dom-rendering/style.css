@@ -1,0 +1,57 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.btn {
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #c00;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    margin: 5px;
+    width: 143px;
+}
+
+.btn.full {
+    background-color: #080;
+    width: 300px;
+}
+
+.btn__container {
+    margin: 0 auto;
+    max-width: 350px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.wrapper {
+    height: 60px;
+    outline: solid 3px #f00;
+    width: 300px;
+    margin: 10px auto;
+    /*overflow: hidden;*/
+}
+
+.inner {
+    background-color: #ddd;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    width: 100%;
+}
+
+/* style for reflow checking */
+/*
+.wrapper {
+    position: relative;
+    overflow: hidden;
+}
+.inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+*/
